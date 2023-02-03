@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+    margin: ;
+}
+body{
+    margin: 0  ;
+    background-color: #445128  ;
+    ;
+}
+.navbar{
+    display: flex;
+    background-color: #C57A34 ;
+    position: fixed;
+    top: 0rem;
+    width: 100%;    
+}
+.navbar li :hover{
+    text-decoration: underline;
+}
+.navbar li :active {
+ color: #BC6C25;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FEFAE0;
+    padding: 30px 25px;
+}
+.Socials {
+    padding-left: 12in;
+    margin-right: 0;
+}
+.Home{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem auto;
+    padding: 0px;
+    width: 95%;
+    color: #FEFAE0;
+}
+.Home img{
+    height: 40%;
+    width: 40%;
+   
+
+}
+.Home h1{
+    padding: 50px;
+    margin-bottom: in;
+    font-size: 75px; 
+    border: solid 10px #DDA15E;
+    border-radius: 10px;
+}
+.Home h3{
+    margin: in;
+    font-size: 30px;
+}
+
+.Dos{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem auto;
+    padding: 0px;
+    width: 95%;
+    color: #FEFAE0;
+}
+.Dos img{
+    height: 40%;
+    width: 40%;
+   
+
+}
+.Dos h1{
+    padding: 50px;
+    margin-bottom: in;
+    margin-right:in;
+    font-size: 75px; 
+    border: solid 10px #DDA15E;
+    border-radius: 10px;
+}
+.Dos h3{
+    font-size: 30px;
+}
+.Dos h4{
+    font-size: 30px;
+    margin-bottom: 2in ;
+}
+.Work{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   color: #FEFAE0;
+    margin: 10rem auto;
+
+}
+.Work h1{
+    padding: 20px;
+    font-size:50px;
+    border: solid 10px #DDA15E;
+    background-color: ;
+}
+.Work h1 p{
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: ;
+}
+.Work h1 img{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 40%;
+}
+footer  {
+    color: #FEFAE0;
+    background-color:#BC6C25 ;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1in;
+}
